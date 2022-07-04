@@ -8,7 +8,7 @@
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 620,
+          "rightColumn": 940,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
@@ -341,6 +341,32 @@
               "chartName": "Sales Report",
               "xAxisName": "Product Line",
               "chartType": "COLUMN_CHART"
+            },
+            {
+              "widgetName": "ProgressBar1",
+              "isCanvas": false,
+              "displayName": "Progress Bar",
+              "iconSVG": "/formbuilderui/static/media/icon.9b0d7b96.svg",
+              "topRow": 73,
+              "bottomRow": 77,
+              "parentRowSpace": 10,
+              "type": "PROGRESSBAR_WIDGET",
+              "hideCard": false,
+              "fillColor": "#03B365",
+              "parentColumnSpace": 14.5,
+              "leftColumn": 15,
+              "key": "m16iwa2vt3",
+              "showResult": false,
+              "rightColumn": 43,
+              "widgetId": "zkqgoeq2sj",
+              "isVisible": true,
+              "steps": 1,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "progress": 50,
+              "barType": "indeterminate"
             }
           ]
         },
@@ -349,6 +375,7 @@
           "Button1",
           "Chart1",
           "MainContainer",
+          "ProgressBar1",
           "Tabulator1"
         ],
         "validOnPageLoadActions": true,
