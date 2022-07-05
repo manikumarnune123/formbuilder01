@@ -274,7 +274,9 @@
               },
               "animateLoading": true,
               "parentColumnSpace": 9.5,
+              "dynamicTriggerPathList": [],
               "leftColumn": 17,
+              "dynamicBindingPathList": [],
               "customFusionChartConfig": {
                 "type": "column2d",
                 "dataSource": {
@@ -310,7 +312,7 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "yAxisName": "Revenue($)",
-              "chartName": "Sales Report",
+              "chartName": "Sales Report 01",
               "xAxisName": "Product Line",
               "chartType": "COLUMN_CHART"
             },
@@ -379,8 +381,10 @@
               "hideCard": false,
               "animateLoading": true,
               "parentColumnSpace": 14.5,
+              "dynamicTriggerPathList": [],
               "leftColumn": 1,
-              "text": "Submit",
+              "dynamicBindingPathList": [],
+              "text": "Submit text",
               "isDisabled": false,
               "key": "k4umvi5gs6",
               "rightColumn": 17,
